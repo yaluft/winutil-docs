@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home Page :: WinUtil Docs</title>
+    <title>Welcome to the WinUtil Documentation! :: WinUtil Docs</title>
     <link>http://localhost:1313/index.html</link>
-    <description>This is your new home page.</description>
+    <description>Welcome to the official documentation for WinUtil, your go-to utility for optimizing and managing your Windows environment. Whether you’re an IT professional, power user, or regular user, WinUtil provides a comprehensive set of tools to enhance your Windows experience.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 30 Oct 2024 20:06:51 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>User-Guides</title>
+      <link>http://localhost:1313/user-guide/index.html</link>
+      <pubDate>Wed, 30 Oct 2024 20:06:51 +0100</pubDate>
+      <guid>http://localhost:1313/user-guide/index.html</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
