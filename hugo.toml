@@ -5,3 +5,4 @@ theme = 'relearn'
 
 [params]
   themeVariant = ['relearn-light', 'relearn-dark']
+  linkTitle = 'Relearn'
