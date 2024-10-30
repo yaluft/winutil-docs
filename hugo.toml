@@ -2,3 +2,6 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'WinUtil Docs'
 theme = 'relearn'
+
+[params]
+  themeVariant = ['relearn-light', 'relearn-dark']
