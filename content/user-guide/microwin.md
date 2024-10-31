@@ -41,3 +41,106 @@ You may be wondering if your Windows image is compatible with the MicroWin proce
 After getting information about your ISO file, you will see the following screen:
 
 ![](/images/microwin/microwin-screen-full-dark.png)
+
+### Requirements
+
+To successfully use MicroWin with your Windows image, you need the following:
+
+- **The latest versions of Windows 10, or Windows 11**
+- **Enough space**. We recommend having, at least, double the size of your ISO file. However, you may need more if you want to inject drivers
+
+## Options
+
+### Choosing your index
+
+By default, MicroWin will target the Pro edition of Windows. The Pro edition is a good baseline for IT administrators **and** end-users, due to the inclusion of Group Policy, the ability to join domains, and more things that you can't find with the Home edition. For more information, check out [this comparison chart](https://en.wikipedia.org/wiki/Windows_10_editions#Comparison_chart).
+
+Obviously, you should pick the edition of Windows for which you have a license. To change the edition to process, select the drop-down menu under "Choose Windows SKU" and select your edition.
+
+![](/images/microwin/microwin-skuselect-dark.png)
+
+### Injecting drivers
+
+If you want to use MicroWin on a real system, you may want to include the drivers for it, to avoid setting them up after OS installation. That's where the options to inject drivers come in handy.
+
+- **Injecting drivers:** if you want to install MicroWin on another system, simply check this option. Prepare a folder with the drivers of your system and specify it in the UI. To learn more about how to export the drivers, read the section "Exporting drivers"
+- **Importing drivers:** if you want to install MicroWin on **your** system, you can apply the drivers of your system to the image by importing them. Combine that with the former option, and you can have your driver files stored permanently on your preferred location
+
+Of course, you can continue without setting up drivers. Simply leave the options blank and continue with the process.
+
+#### How do I export drivers?
+
+To export the drivers, you can do the following on many utilities:
+
+##### DISM
+
+To export the drivers using DISM (via the command-line), do the following:
+
+1. Launch the command-line interpreter you want (`cmd`, PowerShell...) **as an administrator**
+2. Go to where you want to place the drivers with `cd`, and create a directory called "drivers" (`md drivers`)
+3. Run the following command: `dism /online /export-driver /destination="<path-to-folder>"`
+4. Wait for the drivers to be exported
+
+##### Driver Store Explorer (RAPR)
+
+To export the drivers using [Driver Store Explorer (RAPR)](https://github.com/lostindark/DriverStoreExplorer/), do the following:
+
+1. Go to "File > Export All Drivers"
+
+![](/images/microwin/rapr_menu.png)
+
+2. Choose the folder to export all the drivers to and click OK
+
+![](/images/microwin/rapr_folderpicker.png)
+
+##### DISM++
+
+To export the drivers using [DISM++](https://github.com/Chuyu-Team/Dism-Multi-language), do the following:
+
+1. Select your active installation if you haven't (it's the first item)
+2. Go to "Drivers", select "All" and select "Export"
+
+![](/images/microwin/dism++_drivercontrol.png)
+
+3. Choose the folder to export all the drivers to and click OK
+
+![](/images/microwin/dism++_driverexport.png)
+
+##### DISMTools
+
+To export the drivers using [DISMTools](https://github.com/CodingWonders/DISMTools), do the following:
+
+1. Select "Manage online installation" in the home screen and accept the warning
+
+![](/images/microwin/dt_activeinst.png)
+
+2. Go to "Commands > Drivers > Export driver packages..."
+
+![](/images/microwin/dt_exportdrvs.png)
+
+3. Choose the path to export the drivers to ("Export target") and click OK
+
+![](/images/microwin/dt_exporttarget.png)
+
+##### Other UIs
+
+To export the drivers using another UI, read its documentation.
+
+### Copying to Ventoy
+
+If you have a Ventoy drive, you can copy your ISO file to it quickly and easily. This is done after it has been created. To do this, simply check "Copy to Ventoy".
+
+You can learn more about Ventoy drives [here](https://www.ventoy.net/en/index.html).
+
+### Setting up a custom user
+
+If you want to set up a custom user, effectively creating a completely unattended installation, you can set up a user name and password:
+
+![](/images/microwin/microwin-customuser-dark.png)
+
+> [!INFO]
+To set up a custom user, you need to specify its name, which cannot surpass 20 characters. Otherwise, a user named "User" will be created. However, you don't need to set up a password. If you leave the password box blank, you can take advantage of auto-logons, but **do what you think it's best for your use case**.
+
+After configuring all your desired settings, click "Start the process" and specify the location of your ISO file.
+
+Now, you have to wait for the magic to happen. This can take between 5-10 minutes, but it depends on the performance of your computer.
