@@ -14,7 +14,7 @@ Welcome to the official documentation for WinUtil, your go-to utility for optimi
    irm christitus.com/win | iex
    ```
 
-> [!INFO]
+> [!NOTE]
 > WinUtil is updated weekly as of the time of writing. Consequently, features and functionalities may evolve, and the documentation may not always reflect the most current images or information.
 
 ## Contributing to the Docs
