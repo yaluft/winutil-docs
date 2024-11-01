@@ -2,7 +2,16 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'WinUtil Docs'
 theme = 'relearn'
+enableGitInfo = true
 
 [params]
   themeVariant = ['relearn-light', 'relearn-dark']
   linkTitle = 'Relearn'
+  collapsibleMenu = true
+  disableLandingPageButton = true
+  editURL = 'https://github.com/Chris-Titus-Docs/winutil-docs/edit/main/content/${FilePath}'
+
+[module]
+  [[module.mounts]]
+    source = 'README.md'
+    target = 'assets/README.md'
