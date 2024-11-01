@@ -6,4 +6,6 @@ title = 'User Guide'
 
 ## Table of Content
 
+### [Install](./install.md)
+
 ### [MicroWin](./microwin.md)
