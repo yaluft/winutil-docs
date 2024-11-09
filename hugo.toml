@@ -2,7 +2,6 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'WinUtil Docs'
 theme = 'relearn'
-enableGitInfo = true
 
 [params]
   themeVariant = ['zen-dark','zen-light' ]
