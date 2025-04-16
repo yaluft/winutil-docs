@@ -1,22 +1,19 @@
-# winutil-docs
+# Winutil Documentation
 
-[![Version](https://img.shields.io/github/v/release/ChrisTitusTech/winutil?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/ChrisTitusTech/winutil/releases/latest)
-![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/ChrisTitusTech/winutil/winutil.ps1?label=Total%20Downloads&style=for-the-badge)
+[![Version](https://img.shields.io/github/v/release/ChrisTitusTech/Winutil?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/ChrisTitusTech/Winutil/releases/latest)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/ChrisTitusTech/Winutil/Winutil.ps1?label=Total%20Downloads&style=for-the-badge)
 [![Discord Community Server](https://dcbadge.limes.pink/api/server/https://discord.gg/RUbZUZyByQ)](https://discord.gg/RUbZUZyByQ)
 
-Welcome to the official documentation for WinUtil, your go-to utility for optimizing and managing your Windows environment. Whether you’re an IT professional, power user, or regular user, WinUtil provides a comprehensive set of tools to enhance your Windows experience.
+Welcome to the official documentation for Winutil, your go-to utility for optimizing and managing your Windows environment. Whether you’re an IT professional, power user, or regular user, Winutil provides a comprehensive set of tools to enhance your Windows experience.
 
-## Running the latest release of WinUtil
+## Running the latest release of Winutil
 
-* You will first need to start a Powershell terminal **as Admin**.
+* You will first need to start a Powershell Terminal **as Admin**.
 * Now you can run the following command:
    ```ps1
-   irm christitus.com/win | iex
+   irm "https://christitus.com/win" | iex
    ```
-
-> [!NOTE]
-> WinUtil is updated weekly as of the time of writing. Consequently, features and functionalities may evolve, and the documentation may not always reflect the most current images or information.
 
 ## Contributing to the Docs
 
-WinUtil Docs uses the [Hugo Relearn Theme](https://mcshelby.github.io/hugo-theme-relearn/introduction/quickstart/), consider reading their documentation before contributing to the WinUtil Docs.
+Winutil Docs uses the [Hugo Hextra Theme](https://imfing.github.io/hextra/), consider reading their [documentation](https://imfing.github.io/hextra/docs/guide/) before contributing to the Winutil Docs.
