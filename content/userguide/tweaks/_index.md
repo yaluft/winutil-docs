@@ -3,7 +3,9 @@ title: Tweaks
 weight: 3
 ---
 
-![Tweaks Image](/images/Tweaks-Tab-Dark.png#only-dark#gh-dark-mode-only)
+{{< image src="images/Tweaks-Tab-Dark.png" alt="Image of Tweaks Tab in Dark Theme" >}}
+
+<!--![Tweaks Image](/images/Tweaks-Tab-Dark.png#only-dark#gh-dark-mode-only)-->
 <!-- ![Tweaks Image](/images/Tweaks-Tab-Light.png#only-light#gh-light-mode-only) -->
 
 ### Run Tweaks
