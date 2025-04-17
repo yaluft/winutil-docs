@@ -22,7 +22,7 @@ From this screen, you'll have to do one of the following:
 
 {{< image src="images/microwin/microwin-downloader-dark.png" >}}
 
-> [!INFO]
+> [!NOTE]
 When downloading your ISO file, network conditions (such as speed and location) can affect the time you have to wait for the download to complete and the availability of such download.
 
 ### Compatibility
@@ -66,7 +66,7 @@ If you want to use MicroWin on a real system, you may want to include the driver
 - **Importing drivers:** if you want to install MicroWin on **your** system, you can apply the drivers of your system to the image by importing them. Combine that with the former option, and you can have your driver files stored permanently on your preferred location
 - **Injecting VirtIO drivers:** if you plan on using the target Windows image with QEMU/Proxmox VE, or any UI that uses it (like `virt-manager` on Linux), you can automatically download the VirtIO driver ISO and put its contents into your ISO file
 
-> [!INFO]
+> [!NOTE]
 Injecting VirtIO drivers is only supported on v25.01.11 and later
 
 Of course, you can continue without setting up drivers. Simply leave the options blank and continue with the process.
@@ -151,7 +151,7 @@ If you want to set up a custom user, effectively creating a completely unattende
 
 {{< image src="images/microwin/microwin-customuser-dark.png" >}}
 
-> [!INFO]
+> [!NOTE]
 To set up a custom user, you need to specify its name, which cannot surpass 20 characters. Otherwise, a user named "User" will be created. However, you don't need to set up a password. If you leave the password box blank, you can take advantage of auto-logons, but **do what you think it's best for your use case**.
 
 After configuring all your desired settings, click "Start the process" and specify the location of your ISO file.
