@@ -67,6 +67,12 @@ dateFormat = "January 2, 2006"
 
   [params.page]
   width = "wide"
+  
+  [params.footer]
+  enable = true
+  displayCopyright = true
+  displayPoweredBy = true
+  width = "normal"
 
 [params.highlight.copy]
 enable = true
